@@ -1,0 +1,138 @@
+ .titles { 
+    background-color: #D3D3D3;
+    text-align: center;
+    width: auto;
+    height: 50px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, monospace;
+
+}
+
+.main-title { 
+    background-color:#ADD8E6;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, monospace;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.table { background-color: #f5deb3;
+        font-family: Arial, Helvetica, monospace;
+        
+       }
+
+tr:hover {background-color: #ADD8E6;}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th {
+    background-color: #FF4500;
+    color: white;
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+
+  .box-model {
+   
+    margin: 50px 0;
+    font-family: monospace;
+   
+  }
+  
+ .margin {
+  background: rgb(195, 41, 41);
+  padding: 50px;
+  margin: 50px;
+  width: auto;
+  height: 100%;
+  position: relative;
+  border: 2px dashed white;
+  transition: all .25s ease-in-out;
+  color: black;
+  text-align: center;
+  font-family: monospace;
+  text-transform: uppercase;
+  }
+
+.margin::before {
+  content: "margin";
+  font-size: 50px;
+  font-display: center;
+ 
+    }
+
+.border { 
+  background: rgb(19, 227, 23);
+  padding: 50px;
+  margin: 40px;
+  width: auto; 
+  height: 100%;
+  position: relative;
+  border: 2px dashed white;
+  transition: all .25s ease-in-out;
+  color: black;
+  text-align: center;
+  font-family: monospace;
+}
+
+.border::before {
+  content: "border";
+  font-size: 50px;
+  font-display: center;
+  text-transform: uppercase;
+          }
+
+.padding { 
+        background: rgb(17, 197, 191);
+        margin: 60px;
+        width: auto;
+        height: 100%;
+        position: relative;
+        border: 2px dashed white;
+        transition: all .25s ease-in-out;
+        color: black;
+        font-family: monospace;
+      }
+
+.padding::before {
+  content: "padding";
+  position:absolute;
+  font-size: 50px;
+  font-display: center;
+  padding-top: 50px;
+  text-transform: uppercase;
+        }
+
+.content { 
+  background: rgb(235, 237, 219);
+  margin: 150px;
+  width: auto;
+  height: 300px;
+  position: relative;
+  border: 2px dashed rgb(0, 0, 0);
+  transition: all .25s ease-in-out;
+  color: black;
+  text-align: center;
+  font-family: monospace;
+  padding-top: 250px;
+  
+}
+
+.content::before {
+  content: "content";
+  position:absolute
+  text-transform: uppercase;
+  font-size: 50px;
+  font-display: center;
+  text-align: center;
+         }
